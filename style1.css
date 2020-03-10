@@ -1,0 +1,83 @@
+body
+{
+    color: white;
+}
+.header1
+{
+    background-color:#659DBD;
+    height: 125px;
+}
+
+.header1 div h1
+{
+    position: absolute;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 40px;
+    color: white;
+}
+.logo img
+{
+    height: auto;
+    width: 280px;
+    float: left;
+}
+
+.active 
+{
+    border-radius: 5px;
+    background-color: #45a29e;
+}
+.nav li a:hover
+{    
+    border-radius: 5px;
+    background-color: #45a29e;
+}
+
+
+/*dropdown*/
+
+  /*header 2*/
+.header2
+{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5)), url(background.jpeg) ;
+    background-size: cover;
+    height: 70vh;
+    margin-top: -2%; 
+}
+.header2 h1
+{
+    font-size: 50px;
+    text-decoration: underline gray;
+    text-align: center;
+}
+
+.colorchange
+{
+    animation: colorchangeacc 1s infinite;
+}
+@keyframes colorchangeacc 
+{
+    0%{color:#45a29e}
+    100%{color: #45a29e}
+    
+    50%{color:#659DBD}
+}
+.con
+{
+    color: rgb(56, 50, 50);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    text-align: justify;
+}
+.header2 h2{
+    font-size: 40px;
+    text-decoration: underline wavy gray;
+    margin-left: 7%;
+    color: black;
+}
+.img
+{
+    height: 350px;
+    width: 1900px;
+}
